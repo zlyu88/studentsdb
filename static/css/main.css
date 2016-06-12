@@ -12,9 +12,20 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 10px;
 }
 
+#footer2 {
+    border-top: 1px solid #dddddd;
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #f5f5f5;
+}
+
+#skasuvaty {
+    margin-top: 7px;
+}
+
 /* Groups Selector */
 #group-selector {
-    margin-top: 30px;
+    float: right;
 }
 
 #group-selector select {
@@ -25,4 +36,40 @@ h1, h2, h3, h4, h5, h6 {
   height: 30px;
   line-height: 30px;
   color: #555555;
+}
+
+#group-redact select {
+  margin: 0;
+  width: 254px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  height: 28px;
+  line-height: 30px;
+  color: #555555;
+}
+
+/* Add Student Button */
+#add_student {
+    margin-top: 20px;
+    float: left;
+}
+
+/* Month Selector ????????????????????????????*/
+#month {
+    position: relative;
+}
+
+#visit_table td {
+    border: 1px solid #dddddd;
+}
+
+#visit_table th {
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+
+/* Redact Form */
+#redact_form {
+    text-align: right;
+    margin-top: 3px;
 }
